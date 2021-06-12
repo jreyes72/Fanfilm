@@ -1,0 +1,83 @@
+.logo {
+    top: 1%;
+    background: #5DBAEF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin:auto;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.search input[type=text] {
+    width:700px;
+    height:30px;
+    background: #E8F6FF;
+    border-radius: 25px;
+    border: none;
+}
+.search {
+    width: 50%;
+    margin: auto;
+}
+
+.main{
+    background: #5DBAEF;
+    float:left;
+    height: 1000px;
+    width: 1000px;
+    margin-top: 100px;
+}
+
+.nowplaying{
+    background: #5DBAEF;
+    float: right;
+    height: 1000px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 50 px;
+}
+
+.streaming {
+    background-color: #A7DDFF;
+    float: left;
+    height: 100px;
+    width: 500px;
+}
+.reviews {
+    background-color:#A7DDFF;
+    width: 950px;
+    height: 600px;
+    margin-top: 120px;
+}
+
+img {
+    margin: 10px;
+    float: left;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;
+  }
+  h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+  }
+  h4,h5,p {
+      margin: 1px;
+  }
+
+  body {
+    margin: 2em;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }

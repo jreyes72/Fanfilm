@@ -1,0 +1,91 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<header>
+    <div class="logo">
+    <a [routerLink] = "['']">
+      <h1>{{title}}</h1>
+    </a>
+    </div>
+    <div class="search"> 
+      <input type="text" placeholder="  Search..">
+    </div>
+    
+  </header>
+    <!-- Trending -->
+
+  
+  <body>
+         <!-- Now playing -->
+    <h2 style="text-align: right;">Now playing</h2>
+  <div class="nowplaying" >
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/8a/The_Avengers_%282012_film%29_poster.jpg"  width="90" height="120">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c2/Back_to_the_Future_Part_II.jpg"   width="90" height="120" >
+    <img src="https://static.rogerebert.com/uploads/movie/movie_poster/baby-driver-2017/large_mBkOBaxjr7IBHGuQS3sSFeyYTM.jpg"   width="90" height="120">
+  </div>
+
+    <div class="main">
+    <h2> Trending Movies </h2>
+  <div class="vstack">
+    <a [routerLink]="['/movies',1]">
+    <img src="http://t0.gstatic.com/images?q=tbn:ANd9GcRjhje8wlGlvRxRhXnsWrohnpf6PmeihI_7YQ5aLjYjxbggkiiF"  width="90" height="120" alt="Joker">
+     </a>
+    <a [routerLink]="['/movies',2]">
+    <img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg"   width="90" height="120" >
+    </a>
+    <a [routerLink]="['/movies',3]">
+    <img src="https://static.rogerebert.com/uploads/movie/movie_poster/baby-driver-2017/large_mBkOBaxjr7IBHGuQS3sSFeyYTM.jpg"   width="90" height="120" >
+    </a>  
+  </div> 
+
+    <!-- top rated  -->
+  <h2> Top Rated Movies </h2>
+  <div class="vstack">
+    <a [routerLink]="['/movies',1]">
+        <img src="http://t0.gstatic.com/images?q=tbn:ANd9GcRjhje8wlGlvRxRhXnsWrohnpf6PmeihI_7YQ5aLjYjxbggkiiF"  width="90" height="120" alt="Joker">
+            </a>
+        <a [routerLink]="['/movies',2]">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg"   width="90" height="120" >
+        </a>
+        <a [routerLink]="['/movies',3]">
+        <img src="https://static.rogerebert.com/uploads/movie/movie_poster/baby-driver-2017/large_mBkOBaxjr7IBHGuQS3sSFeyYTM.jpg"   width="90" height="120" >
+        </a> 
+    </div>
+  
+  
+    <!-- Audience Fav -->
+    <h2> Audience Favorites</h2>
+    <div class="vstack" >
+        <a [routerLink]="['/movies',1]">
+        <img src="http://t0.gstatic.com/images?q=tbn:ANd9GcRjhje8wlGlvRxRhXnsWrohnpf6PmeihI_7YQ5aLjYjxbggkiiF"  width="90" height="120" alt="Joker">
+            </a>
+        <a [routerLink]="['/movies',2]">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg"   width="90" height="120" >
+        </a>
+        <a [routerLink]="['/movies',3]">
+        <img src="https://static.rogerebert.com/uploads/movie/movie_poster/baby-driver-2017/large_mBkOBaxjr7IBHGuQS3sSFeyYTM.jpg"   width="90" height="120" >
+        </a> 
+    </div>
+    </div>
+
+  
+  
+  </body>
+
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+  <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+  <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+  <!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+  <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+  
+  
+  
+  <router-outlet></router-outlet>
